@@ -25,7 +25,6 @@ public class knightsTour {
 
     static int[][] dir = { { -2, 1 }, { -1, 2 }, { 1, 2 }, { 2, 1 }, { 2, -1 }, { 1, -2 }, { -1, -2 }, { -2, -1 } };
 
-    // asf -> answer so far
     public static void printKnightsTour(int[][] chess, int r, int c, int upcomingMove) {
 
         int n = chess.length;
